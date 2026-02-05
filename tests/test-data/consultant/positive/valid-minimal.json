@@ -1,0 +1,19 @@
+{
+    "email": "masters.consultant@gmail.com",
+    "password": "Masters@1122",
+    "title": "Minimal(logg2)",
+    "phone": "9876543210",
+    "yearsOfExperience": "3",
+    "description": "Minimal consultant profile.",
+    "basePrice": "1000",
+    "currency": "AED",
+    "leadTime": "5",
+    "locationType": "HYBRID",
+    "serviceRadius": "5",
+    "cities": "hyderabad",
+    "cancellationPolicy": "Standard policy",
+    "terms": "Standard terms",
+    "imagePath": "C:\\Users\\vaish\\Downloads\\consultant1.jpg",
+    "galleryImagePath": "C:\\Users\\vaish\\Downloads\\consultant2.jpg",
+    "galleryImagePath1": "C:\\Users\\vaish\\Downloads\\consultant3.jpg"
+}

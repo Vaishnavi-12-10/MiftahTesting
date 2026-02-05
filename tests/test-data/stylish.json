@@ -1,0 +1,32 @@
+{
+    "email": "masters.stylish@gmail.com",
+    "password": "Masters@1122",
+    "title": "stylish_log2",
+    "phone": "123456789",
+    "altPhone": "234567890",
+    "yearsOfExperience": "5",
+    "languages": [
+        "English"
+    ],
+    "visibleToUsers": true,
+    "description": "stylish_description",
+    "experienceDetails": " 15+ years of professional tennis coaching experience.",
+    "basePrice": "1400",
+    "currency": "AED",
+    "leadTime": "13",
+    "pricePerSession": "3400",
+    "pricePerHour": "1200",
+    "bespokePrice": "3000",
+    "stylespecialties": "casual styling, bridal styling, corporate styling",
+    "wardrobeaudit": "yes",
+    "shoppingassistance": "yes",
+    "lookbookdelivery": "no",
+    "locationType": "HYBRID",
+    "serviceRadius": "10",
+    "cities": "hyderabad, vizag",
+    "cancellationPolicy": "stylish cancellation policy",
+    "terms": "stylish terms and conditions",
+    "imagePath": "C:\\Users\\vaish\\Downloads\\stylish1.jpg",
+    "galleryImagePath": "C:\\Users\\vaish\\Downloads\\stylish2.jpg",
+    "galleryImagePath1": "C:\\Users\\vaish\\Downloads\\stylish3.jpg"
+}

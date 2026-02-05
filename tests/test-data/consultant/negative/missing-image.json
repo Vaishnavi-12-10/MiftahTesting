@@ -1,0 +1,11 @@
+{
+    "title": "IT Consultant",
+    "phone": "9876543210",
+    "yearsOfExperience": "5",
+    "description": "Professional IT Consultant.",
+    "basePrice": "1400",
+    "currency": "AED",
+    "leadTime": "10",
+    "locationType": "HYBRID",
+    "imagePath": ""
+}

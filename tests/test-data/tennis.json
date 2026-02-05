@@ -1,0 +1,33 @@
+{
+    "email": "masters.tennis@gmail.com",
+    "password": "Masters@1122",
+    "title": "tennis_log",
+    "phone": "123456789",
+    "altPhone": "234567890",
+    "yearsOfExperience": "15",
+    "languages": [
+        "English"
+    ],
+    "visibleToUsers": true,
+    "description": "tennis_description",
+    "experienceDetails": "15+ years of professional tennis coaching experience.",
+    "basePrice": "1400",
+    "currency": "AED",
+    "leadTime": "13",
+    "pricePerSession": "3400",
+    "pricePerHour": "1200",
+    "bespokePrice": "3000",
+    "courtsurfacespecialty": "clay, grass",
+    "itfcertificationlevel": "level 2",
+    "sessionduration": "60",
+    "courtincluded": "yes",
+    "maxstudentspersession": "4",
+    "locationType": "HYBRID",
+    "serviceRadius": "10",
+    "cities": "hyderabad, vizag",
+    "cancellationPolicy": "tennis cancellation policy",
+    "terms": "tennis terms and conditions",
+    "imagePath": "C:\\Users\\vaish\\Downloads\\tennis1.jpg",
+    "galleryImagePath": "C:\\Users\\vaish\\Downloads\\tennis2.jpg",
+    "galleryImagePath1": "C:\\Users\\vaish\\Downloads\\tennis3.jpg"
+}

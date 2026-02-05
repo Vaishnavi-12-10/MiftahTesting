@@ -10,5 +10,17 @@
   "devDependencies": {
     "@playwright/test": "^1.58.0",
     "@types/node": "^25.0.10"
-  }
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vaishnavi-12-10/MiftahTesting.git"
+  },
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Vaishnavi-12-10/MiftahTesting/issues"
+  },
+  "homepage": "https://github.com/Vaishnavi-12-10/MiftahTesting#readme"
 }

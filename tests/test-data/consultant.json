@@ -1,0 +1,32 @@
+{
+    "email": "masters.consultant@gmail.com",
+    "password": "Masters@1122",
+    "title": "consultant_title",
+    "phone": "123456789",
+    "altPhone": "234567890",
+    "yearsOfExperience": "5",
+    "languages": [
+        "English"
+    ],
+    "visibleToUsers": true,
+    "description": "consultant_description",
+    "experienceDetails": " 15+ years of professional consultant experience.",
+    "basePrice": "1400",
+    "currency": "AED",
+    "leadTime": "13",
+    "pricePerSession": "3400",
+    "pricePerHour": "1200",
+    "bespokePrice": "3000",
+    "industryFocus": "IT",
+    "deliverables": "consultant deliverables",
+    "institutionFocus": "IT",
+    "videocallIncluded": true,
+    "locationType": "HYBRID",
+    "serviceRadius": "10",
+    "cities": "hyderabad, vizag",
+    "cancellationPolicy": "consultant cancellation policy",
+    "terms": "consultant terms and conditions",
+    "imagePath": "C:\\Users\\vaish\\Downloads\\consultant1.jpg",
+    "galleryImagePath": "C:\\Users\\vaish\\Downloads\\consultant2.jpg",
+    "galleryImagePath1": "C:\\Users\\vaish\\Downloads\\consultant3.jpg"
+}

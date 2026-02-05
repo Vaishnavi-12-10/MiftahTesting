@@ -1,0 +1,73 @@
+=== General ===
+Request URL: https://backend-dev.miftah.ai/api/v1/master-users/tennis-coach
+Request Method: POST
+Status Code: 201 
+Remote Address: (Not available in Playwright)
+Referrer Policy: strict-origin-when-cross-origin
+
+=== Payload ===
+Form Data:
+scenario    Court Included No - Remote
+title    tennis_court_no
+phone    123456789
+yearsOfExperience    7
+description    Online tennis training
+basePrice    1400
+currency    AED
+leadTime    10
+locationType    REMOTE
+primaryImage    (binary)
+languages    English
+courtIncluded    no
+
+=== Response ===
+{
+  "success": true,
+  "service": {
+    "status": "PENDING",
+    "ratingAvg": "0.0",
+    "reviewCount": 0,
+    "timezone": "UTC",
+    "createdAt": "2026-02-05T07:04:37.477Z",
+    "updatedAt": "2026-02-05T07:04:37.477Z",
+    "sessionDurationMins": 60,
+    "courtIncluded": false,
+    "maxStudentsPerSession": 4,
+    "id": "9",
+    "userId": "416",
+    "title": "tennis_court_no",
+    "description": "Professional tennis coaching service",
+    "basePrice": "1500.00",
+    "pricingOptions": {
+      "BESPOKE": 0,
+      "PER_HOUR": 0,
+      "PER_SESSION": 0
+    },
+    "currency": "AED",
+    "experienceYears": 5,
+    "leadTime": 15,
+    "locationType": "REMOTE",
+    "serviceRadiusKm": null,
+    "phoneNumber": "+971123456789",
+    "alternatePhoneNumber": null,
+    "primaryImage": "https://cdn.miftah.ai/master-user-services/general/primaryImage/d93c400a-89d5-4dfa-acb3-978ca52056ac-1770275077384.jpg",
+    "additionalImages": null,
+    "languages": [],
+    "cities": null,
+    "cancellationPolicy": "",
+    "termsAndConditions": "",
+    "updated_at": "2026-02-05T07:04:37.477Z",
+    "created_at": "2026-02-05T07:04:37.477Z",
+    "updatedBy": null,
+    "approvedBy": null,
+    "approvedAt": null,
+    "cancelledBy": null,
+    "cancelledAt": null,
+    "cancellationReason": null,
+    "courtSurfaceSpecialty": null,
+    "itfCertificationLevel": null
+  },
+  "message": "Service created successfully"
+}
+
+====================================================

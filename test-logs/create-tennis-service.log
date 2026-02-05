@@ -1,0 +1,95 @@
+=== General ===
+Request URL: https://backend-dev.miftah.ai/api/v1/master-users/tennis-coach
+Request Method: POST
+Status Code: 201 
+Remote Address: (Not available in Playwright)
+Referrer Policy: strict-origin-when-cross-origin
+
+=== Payload ===
+Form Data:
+email    masters.tennis@gmail.com
+password    Masters@1122
+title    tennis_log
+phone    123456789
+altPhone    234567890
+yearsOfExperience    15
+languages    English
+visibleToUsers    true
+description    tennis_description
+experienceDetails    15+ years of professional tennis coaching experience.
+basePrice    1400
+currency    AED
+leadTime    13
+pricePerSession    3400
+pricePerHour    1200
+bespokePrice    3000
+courtsurfacespecialty    clay, grass
+itfcertificationlevel    level 2
+sessionduration    60
+courtincluded    yes
+maxstudentspersession    4
+locationType    HYBRID
+serviceRadius    10
+cities    hyderabad, vizag
+cancellationPolicy    tennis cancellation policy
+terms    tennis terms and conditions
+imagePath    (binary)
+galleryImagePath    (binary)
+galleryImagePath1    (binary)
+
+=== Response ===
+{
+  "success": true,
+  "service": {
+    "status": "PENDING",
+    "ratingAvg": "0.0",
+    "reviewCount": 0,
+    "timezone": "UTC",
+    "createdAt": "2026-02-05T05:54:36.072Z",
+    "updatedAt": "2026-02-05T05:54:36.072Z",
+    "id": "4",
+    "userId": "416",
+    "title": "tennis_log",
+    "description": "tennis_description",
+    "basePrice": "13.00",
+    "pricingOptions": {
+      "BESPOKE": 0,
+      "PER_HOUR": 3000,
+      "PER_SESSION": 1200
+    },
+    "currency": "AED",
+    "experienceYears": 15,
+    "leadTime": 3400,
+    "locationType": "HYBRID",
+    "serviceRadiusKm": 10,
+    "phoneNumber": "+971123456789",
+    "alternatePhoneNumber": "+971234567890",
+    "primaryImage": "https://cdn.miftah.ai/master-user-services/general/primaryImage/9f5b764c-55c8-4f03-a109-2b1b19a69e54-1770270875927.jpg",
+    "additionalImages": [
+      "https://cdn.miftah.ai/master-user-services/general/additionalImages/a63851a3-a56b-43e7-86ef-534abfa68e01-1770270875927.jpg",
+      "https://cdn.miftah.ai/master-user-services/general/additionalImages/20582ad4-1eeb-4a75-983a-db99deb30b30-1770270875999.jpg"
+    ],
+    "languages": [
+      "English"
+    ],
+    "cities": null,
+    "cancellationPolicy": "tennis cancellation policy",
+    "termsAndConditions": "tennis terms and conditions",
+    "itfCertificationLevel": "level 2",
+    "sessionDurationMins": 60,
+    "courtIncluded": true,
+    "maxStudentsPerSession": 4,
+    "updated_at": "2026-02-05T05:54:36.072Z",
+    "created_at": "2026-02-05T05:54:36.072Z",
+    "updatedBy": null,
+    "approvedBy": null,
+    "approvedAt": null,
+    "cancelledBy": null,
+    "cancelledAt": null,
+    "cancellationReason": null,
+    "courtSurfaceSpecialty": null
+  },
+  "message": "Service created successfully"
+}
+
+====================================================

@@ -1,0 +1,13 @@
+{
+    "login": {
+        "email": "masters.tennis@gmail.com",
+        "password": "Masters@1122"
+    },
+    "generalInfo": {
+        "title": "tennis_log",
+        "phone": "123456789"
+    },
+    "images": {
+        "primary": ""
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "email": "makeup.artist@gmail.com",
+    "password": "Makeup@12",
+    "title": "makeup_log",
+    "phone": "123456789",
+    "altPhone": "234567890",
+    "yearsOfExperience": "5",
+    "languages": [
+        "English"
+    ],
+    "visibleToUsers": true,
+    "description": "Makeup_description",
+    "experienceDetails": "5+ years of professional bridal and editorial makeup experience.",
+    "basePrice": "1400",
+    "currency": "AED",
+    "leadTime": "13",
+    "pricePerSession": "3400",
+    "pricePerHour": "1200",
+    "bespokePrice": "3000",
+    "styles": "hair, spa, facial",
+    "brands": "lakme, loreal",
+    "lashesIncluded": true,
+    "airbrushAvailable": false,
+    "hairStylingIncluded": true,
+    "locationType": "HYBRID",
+    "serviceRadius": "10",
+    "cities": "hyderabad, vizag",
+    "cancellationPolicy": "makeup cancellation policy",
+    "terms": "makeup terms and conditions",
+    "imagePath": "C:\\Users\\vaish\\Downloads\\make-up1.jpg",
+    "galleryImagePath": "C:\\Users\\vaish\\Downloads\\make-up2.jpg",
+    "galleryImagePath1": "C:\\Users\\vaish\\Downloads\\make-up3.jpg"
+}

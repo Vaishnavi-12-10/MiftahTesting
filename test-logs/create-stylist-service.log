@@ -1,0 +1,93 @@
+=== General ===
+Request URL: https://backend-dev.miftah.ai/api/v1/master-users/stylist
+Request Method: POST
+Status Code: 201 
+Remote Address: (Not available in Playwright)
+Referrer Policy: strict-origin-when-cross-origin
+
+=== Payload ===
+Form Data:
+email    masters.stylish@gmail.com
+password    Masters@1122
+title    stylish_log2
+phone    123456789
+altPhone    234567890
+yearsOfExperience    5
+languages    English
+visibleToUsers    true
+description    stylish_description
+experienceDetails     15+ years of professional tennis coaching experience.
+basePrice    1400
+currency    AED
+leadTime    13
+pricePerSession    3400
+pricePerHour    1200
+bespokePrice    3000
+stylespecialties    casual styling, bridal styling, corporate styling
+wardrobeaudit    yes
+shoppingassistance    yes
+lookbookdelivery    no
+locationType    HYBRID
+serviceRadius    10
+cities    hyderabad, vizag
+cancellationPolicy    stylish cancellation policy
+terms    stylish terms and conditions
+imagePath    (binary)
+galleryImagePath    (binary)
+galleryImagePath1    (binary)
+
+=== Response ===
+{
+  "success": true,
+  "service": {
+    "status": "PENDING",
+    "ratingAvg": "0.0",
+    "reviewCount": 0,
+    "timezone": "UTC",
+    "createdAt": "2026-02-05T05:41:41.876Z",
+    "updatedAt": "2026-02-05T05:41:41.876Z",
+    "id": "12",
+    "userId": "407",
+    "title": "stylish_log2",
+    "description": "stylish_description",
+    "basePrice": "13.00",
+    "pricingOptions": {
+      "BESPOKE": 0,
+      "PER_HOUR": 3000,
+      "PER_SESSION": 1200
+    },
+    "currency": "AED",
+    "experienceYears": 5,
+    "leadTime": 3400,
+    "locationType": "HYBRID",
+    "serviceRadiusKm": 10,
+    "phoneNumber": "+971123456789",
+    "alternatePhoneNumber": "+971234567890",
+    "primaryImage": "https://cdn.miftah.ai/master-user-services/general/primaryImage/511d0f9a-825a-4ab9-ae59-205300f79bd2-1770270101794.jpg",
+    "additionalImages": [
+      "https://cdn.miftah.ai/master-user-services/general/additionalImages/63ff23b7-d34c-467d-bc74-d54ce16a946f-1770270101794.jpg",
+      "https://cdn.miftah.ai/master-user-services/general/additionalImages/fc49e363-922c-4301-aef8-8cce6e0d8ccd-1770270101794.jpg"
+    ],
+    "languages": [
+      "English"
+    ],
+    "cities": null,
+    "cancellationPolicy": "stylish cancellation policy",
+    "termsAndConditions": "stylish terms and conditions",
+    "wardrobeAuditIncluded": true,
+    "shoppingAssistance": true,
+    "lookbookDelivery": false,
+    "updated_at": "2026-02-05T05:41:41.876Z",
+    "created_at": "2026-02-05T05:41:41.876Z",
+    "updatedBy": null,
+    "approvedBy": null,
+    "approvedAt": null,
+    "cancelledBy": null,
+    "cancelledAt": null,
+    "cancellationReason": null,
+    "styleSpecialties": null
+  },
+  "message": "Service created successfully"
+}
+
+====================================================

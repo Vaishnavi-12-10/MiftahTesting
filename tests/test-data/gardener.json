@@ -1,0 +1,43 @@
+{
+    "email": "masters.gardner@gmail.com",
+    "password": "Masters@1122",
+    "title": "gardener_log",
+    "phone": "123456789",
+    "altPhone": "234567890",
+    "yearsOfExperience": "5",
+    "languages": [
+        "English"
+    ],
+    "visibleToUsers": true,
+    "description": "gardener_description",
+    "experienceDetails": " 15+ years of professional gardener experience.",
+    "basePrice": "1400",
+    "currency": "AED",
+    "leadTime": "13",
+    "pricePerSession": "3400",
+    "pricePerHour": "1200",
+    "bespokePrice": "3000",
+    "serviceTasks": [
+        "Lawn Mowing",
+        "Weeding",
+        "Pruning",
+        "Planting",
+        "Fertilizing",
+        "Pest Control",
+        "Irrigation",
+        "Landscape Design",
+        "Tree Trimming",
+        "Hedge Trimming"
+    ],
+    "toolsIncluded": true,
+    "wasteRemovalincluded": true,
+    "organicMethods": false,
+    "locationType": "HYBRID",
+    "serviceRadius": "10",
+    "cities": "hyderabad, vizag",
+    "cancellationPolicy": "gardener cancellation policy",
+    "terms": "gardener terms and conditions",
+    "imagePath": "C:\\Users\\vaish\\Downloads\\gardener1.jpg",
+    "galleryImagePath": "C:\\Users\\vaish\\Downloads\\gardener2.jpg",
+    "galleryImagePath1": "C:\\Users\\vaish\\Downloads\\gardener3.jpg"
+}

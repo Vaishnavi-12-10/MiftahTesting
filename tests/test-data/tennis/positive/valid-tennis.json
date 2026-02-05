@@ -1,0 +1,54 @@
+[
+    {
+        "scenario": "Mandatory Fields Only - Onsite",
+        "title": "tennis_mandatory_onsite",
+        "phone": "123456789",
+        "yearsOfExperience": "5",
+        "description": "Professional onsite tennis coaching",
+        "basePrice": "1500",
+        "currency": "AED",
+        "leadTime": "15",
+        "locationType": "ONSITE",
+        "serviceRadius": "10",
+        "primaryImage": "C:\\Users\\vaish\\Downloads\\tennis1.jpg",
+        "languages": [
+            "English"
+        ],
+        "courtIncluded": "yes"
+    },
+    {
+        "scenario": "Multiple Languages - Hybrid",
+        "title": "tennis_multi_lang",
+        "phone": "123456789",
+        "yearsOfExperience": "6",
+        "description": "Hybrid tennis coaching service",
+        "basePrice": "1600",
+        "currency": "AED",
+        "leadTime": "20",
+        "locationType": "HYBRID",
+        "serviceRadius": "10",
+        "cities": "Hyderabad",
+        "primaryImage": "C:\\Users\\vaish\\Downloads\\tennis1.jpg",
+        "languages": [
+            "English",
+            "Arabic"
+        ],
+        "courtIncluded": "yes"
+    },
+    {
+        "scenario": "Court Included No - Remote",
+        "title": "tennis_court_no",
+        "phone": "123456789",
+        "yearsOfExperience": "7",
+        "description": "Online tennis training",
+        "basePrice": "1400",
+        "currency": "AED",
+        "leadTime": "10",
+        "locationType": "REMOTE",
+        "primaryImage": "C:\\Users\\vaish\\Downloads\\tennis1.jpg",
+        "languages": [
+            "English"
+        ],
+        "courtIncluded": "no"
+    }
+]

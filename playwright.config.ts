@@ -12,7 +12,7 @@ import { defineConfig, devices } from '@playwright/test';
  * See https://playwright.dev/docs/test-configuration.
  */
 export default defineConfig({
-  
+
   testDir: './tests',
   /* Run tests in files in parallel */
   fullyParallel: true,
@@ -31,21 +31,17 @@ export default defineConfig({
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     browserName: 'chromium',
-  headless: false,
-  launchOptions: {
-    slowMo: 1000,
-  },
+    headless: false,
+    launchOptions: {
+      slowMo: 1000,
+    },
     trace: 'on-first-retry',
-    
+
   },
-  
+
 
   /* Configure projects for major browsers */
   projects: [
-    {
-      name: 'chromium',
-      use: { ...devices['Desktop Chrome'] },
-    },
     {
       name: 'setup',
       testMatch: /.*\.setup\.ts/,
@@ -58,19 +54,21 @@ export default defineConfig({
         storageState: 'storage/crm-auth.json',
       },
     },
-  
-/*
-    {
-      name: 'firefox',
-      use: { ...devices['Desktop Firefox'] },
-    },
 
-    {
-      name: 'webkit',
-      use: { ...devices['Desktop Safari'] },
-    },
 
-    /* Test against mobile viewports. */
+
+    /*
+        {
+          name: 'firefox',
+          use: { ...devices['Desktop Firefox'] },
+        },
+    
+        {
+          name: 'webkit',
+          use: { ...devices['Desktop Safari'] },
+        },
+    
+        /* Test against mobile viewports. */
     // {
     //   name: 'Mobile Chrome',
     //   use: { ...devices['Pixel 5'] },
@@ -97,5 +95,5 @@ export default defineConfig({
   //   url: 'http://localhost:3000',
   //   reuseExistingServer: !process.env.CI,
   // },
-  
+
 });

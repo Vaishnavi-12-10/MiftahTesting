@@ -1,0 +1,13 @@
+
+=== GENERAL ===
+Request URL: https://backend-dev.miftah.ai/api/v1/master-users/consultant
+Request Method: POST
+Status Code: 201
+
+
+=== REQUEST PAYLOAD ===
+No Payload
+
+
+=== RESPONSE ===
+{"success":true,"service":{"status":"PENDING","ratingAvg":"0.0","reviewCount":0,"timezone":"UTC","createdAt":"2026-02-04T11:55:04.584Z","updatedAt":"2026-02-04T11:55:04.584Z","videoCallIncluded":true,"id":"60","userId":"406","title":"Consultant Minimal(log1)","description":"Minimal consultant profile.","basePrice":"1000.00","pricingOptions":{"BESPOKE":0,"PER_HOUR":0,"PER_SESSION":0},"currency":"AED","experienceYears":3,"leadTime":5,"locationType":"ONSITE","serviceRadiusKm":10,"phoneNumber":"+971112345678","alternatePhoneNumber":null,"primaryImage":"https://cdn.miftah.ai/master-user-services/general/primaryImage/d4e6324e-0a84-41b6-8285-010d4e7952b4-1770206104543.jpg","additionalImages":null,"languages":[],"cities":null,"cancellationPolicy":"Standard policy","termsAndConditions":"Standard terms","updated_at":"2026-02-04T11:55:04.584Z","created_at":"2026-02-04T11:55:04.584Z","updatedBy":null,"approvedBy":null,"approvedAt":null,"cancelledBy":null,"cancelledAt":null,"cancellationReason":null,"industryFocus":null,"deliverables":null,"institutionFocus":null},"message":"Service created successfully"}

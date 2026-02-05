@@ -1,0 +1,75 @@
+=== General ===
+Request URL: https://backend-dev.miftah.ai/api/v1/master-users/tennis-coach
+Request Method: POST
+Status Code: 201 
+Remote Address: (Not available in Playwright)
+Referrer Policy: strict-origin-when-cross-origin
+
+=== Payload ===
+Form Data:
+scenario    Multiple Languages - Hybrid
+title    tennis_multi_lang
+phone    123456789
+yearsOfExperience    6
+description    Hybrid tennis coaching service
+basePrice    1600
+currency    AED
+leadTime    20
+locationType    HYBRID
+serviceRadius    10
+cities    Hyderabad
+primaryImage    (binary)
+languages    English,Arabic
+courtIncluded    yes
+
+=== Response ===
+{
+  "success": true,
+  "service": {
+    "status": "PENDING",
+    "ratingAvg": "0.0",
+    "reviewCount": 0,
+    "timezone": "UTC",
+    "createdAt": "2026-02-05T07:04:37.500Z",
+    "updatedAt": "2026-02-05T07:04:37.500Z",
+    "sessionDurationMins": 60,
+    "courtIncluded": false,
+    "maxStudentsPerSession": 4,
+    "id": "10",
+    "userId": "416",
+    "title": "tennis_multi_lang",
+    "description": "Professional tennis coaching service",
+    "basePrice": "1500.00",
+    "pricingOptions": {
+      "BESPOKE": 0,
+      "PER_HOUR": 0,
+      "PER_SESSION": 0
+    },
+    "currency": "AED",
+    "experienceYears": 5,
+    "leadTime": 15,
+    "locationType": "HYBRID",
+    "serviceRadiusKm": null,
+    "phoneNumber": "+971123456789",
+    "alternatePhoneNumber": null,
+    "primaryImage": "https://cdn.miftah.ai/master-user-services/general/primaryImage/dae974b6-ff16-462b-8eac-a21bb241825d-1770275077423.jpg",
+    "additionalImages": null,
+    "languages": [],
+    "cities": null,
+    "cancellationPolicy": "",
+    "termsAndConditions": "",
+    "updated_at": "2026-02-05T07:04:37.500Z",
+    "created_at": "2026-02-05T07:04:37.500Z",
+    "updatedBy": null,
+    "approvedBy": null,
+    "approvedAt": null,
+    "cancelledBy": null,
+    "cancelledAt": null,
+    "cancellationReason": null,
+    "courtSurfaceSpecialty": null,
+    "itfCertificationLevel": null
+  },
+  "message": "Service created successfully"
+}
+
+====================================================
